@@ -93,8 +93,8 @@ h3 {
 }
 
 textarea {
-  width: 32em;
-  height: 21.3em;
+  width: 24em;
+  height: 21em;
   font-family: var(--mono-fonts);
   background-color: var(--txt-background-color);
   border-color: var(--border-color);
