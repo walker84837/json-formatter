@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+/* #658bb7
+#324a5f */
+
+:root {
+  --fonts: "Open Sans", Helvetica, system-ui, sans-serif;
+  --mono-fonts: "JetBrains Mono", "Menlo", "Courier", monospace;
+  --text-color: #bacbde;
+  --background-color: #121a21;
+  --button-bg-color: #3f6187;
+  --txt-background-color: #273747;
+  --border-color: #283848;
+  --link-hover-color: #7b8da3;
+}
+
+* {
+  font-family: var(--fonts);
+  font-size: 1em;
+  text-align: center;
+  color: var(--text-color);
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: min(128ch, calc(100% - 4rem));
+  margin-inline: auto;
+  padding: 1.5rem;
+}
+
+footer {
+  background-color: #31495e7f;
+  padding: 1.5rem;
+  font-size: 0.875em;
+}
+
+strong {
+  font-weight: 500;
+}
+
+button {
+  background-color: var(--button-bg-color);
+  border: none;
+  font-size: 0.875em;
+  border-radius: 1em 1em;
+  padding: 0.625em 1.25em;
+  cursor: pointer;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+h1, h2, h3 {
+  text-wrap: balance;
+}
+
+a {
+  color: var(--text-color);
+  text-align: center;
+  text-decoration: underline;
+  transition: color 250ms ease-in-out;
+}
+
+a:hover {
+  color: var(--link-hover-color);
+  text-decoration: underline;
+}
+
+mark {
+  background-color: #6c91b27f;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 2em;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 1.5625em;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 1.325em;
+}
+
+textarea {
+  width: 32em;
+  height: 21.3em;
+  font-family: var(--mono-fonts);
+  background-color: var(--txt-background-color);
+  border-color: var(--border-color);
+  border-width: 0.15em;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  font-weight: 400;
+  font-size: 0.85em;
+  text-align: left;
+  border-radius: 1em 1em;
+}
+
+p {
+  font-weight: 300;
+  text-align: justify;
+}
+
+pre {
+  border-color: var(--border-color);
+  background-color: var(--txt-background-color);
+  border-width: 0.15em;
+  border-radius: 1em 1em;
+  padding: 1em;
+  font-size: 0.85em;
+  font-family: var(--mono-fonts);
+  text-align: left;
+}
+
+::selection {
+  background-color: #31495e7f;
+}
