@@ -4,7 +4,7 @@
 ![Apache License, Version 2.0](https://img.shields.io/badge/License-Apache%202.0-blue)
 ![MIT License](https://img.shields.io/badge/License-MIT-green)
 
-![Preview](https://github.com/walker84837/json-formatter/assets/68739688/cdc28ba2-71ff-4b5d-a13d-977978e89c67)
+https://github.com/walker84837/json-formatter/assets/68739688/cdc28ba2-71ff-4b5d-a13d-977978e89c67
 
 This tool is a JSON formatter that enables the formatting of JSON data by applying
 appropriate indentation and line breaks. This makes JSON files easier to read and understand.
