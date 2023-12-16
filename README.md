@@ -1,26 +1,46 @@
 # json-formatter
 
-This JSON Formatter is a simple web tool that enables you to format JSON data by applying proper indentation and line breaks. It helps you organize and beautify your JSON code, making it easier to read and understand.
+![Maintenance Mode](https://img.shields.io/badge/Development%20Status-Maintenance%20Mode-yellow)
+![Apache License, Version 2.0](https://img.shields.io/badge/License-Apache%202.0-blue)
+![MIT License](https://img.shields.io/badge/License-MIT-green)
 
-## Usage
+This tool is a JSON formatter that enables the formatting of JSON data by applying
+appropriate indentation and line breaks. This makes JSON files easier to read and understand.
 
-1. Open the web page in your browser.
-2. Enter your JSON data in the provided textarea.
-3. Click the "Format JSON" button.
-4. The formatted JSON will be displayed in the designated area below the button.
+**NOTE:** This repository is currently in maintenance mode as no new features are being added.
+Contributions and suggestions for new features and bug fixes are welcome.
+
+## Table of Contents
+
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [Other information](#other-information)
+      - [Roadmap](#roadmap)
+      - [Support](#support)
+  - [Contributing](#contributing)
+  - [License](#license)
+
+## Other information
+
+### Roadmap
+
+I'm planning on moving this repository to another platform where I can use a Rust framework,
+like [Actix](https://actix.rs/) or [Rocket](https://rocket.rs/).
+
+### Support
+
+If you need help, or if assistance is needed, feel free to open an issue.
 
 ## Contributing
 
-Contributions are welcome! If you want to contribute to this project, please follow these steps:
+Contributions are welcome\! If you want to contribute to this project, please
+follow these steps:
 
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and commit them with descriptive messages.
-4. Push your changes to your forked repository.
-5. Submit a pull request to the main repository.
-
-Please ensure that your code follows the existing coding style and conventions. Include appropriate tests and documentation for your changes.
+  - The code should follow the [Linux kernel coding style](https://docs.kernel.org/process/coding-style.html).
+  - When committing changes, follow the commit message guide [here](https://commit.style).
+  - If you'd like to propose any changes, please open an issue.
 
 ## License
 
-This project is licensed under the [Unlicense](LICENSE).
+This project is dual-licensed under the [Apache License, version 2](LICENSE_APACHE.md),
+or the [MIT License](LICENSE_MIT.md).
